@@ -2,13 +2,13 @@
 	"name": "tailwind-css-course",
 	"version": "1.0.0",
 	"description": "Tailwind CSS crash course",
-	"homepage": "https://github.com/smileywrld/tailwind-css-course#readme",
+	"homepage": "https://github.com/smileywrld/astrodrive#readme",
 	"bugs": {
-		"url": "https://github.com/smileywrld/tailwind-css-course/issues"
+		"url": "https://github.com/smileywrld/astrodrive/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/smileywrld/tailwind-css-course.git"
+		"url": "git+https://github.com/smileywrld/astrodrive.git"
 	},
 	"license": "ISC",
 	"author": "",
