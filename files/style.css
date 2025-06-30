@@ -723,13 +723,6 @@
       content: var(--tw-content);
     }
   }
-  .hover\:bg-teal-800 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-teal-800);
-      }
-    }
-  }
   .hover\:opacity-90 {
     &:hover {
       @media (hover: hover) {
@@ -756,11 +749,6 @@
   .sm\:w-1\/2 {
     @media (width >= 40rem) {
       width: calc(1/2 * 100%);
-    }
-  }
-  .sm\:w-2 {
-    @media (width >= 40rem) {
-      width: calc(var(--spacing) * 2);
     }
   }
   .sm\:w-5\/6 {
@@ -804,11 +792,6 @@
   .dark\:bg-black {
     @media (prefers-color-scheme: dark) {
       background-color: var(--color-black);
-    }
-  }
-  .dark\:bg-red-400 {
-    @media (prefers-color-scheme: dark) {
-      background-color: var(--color-red-400);
     }
   }
   .dark\:bg-white {
