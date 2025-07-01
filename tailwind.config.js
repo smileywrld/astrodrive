@@ -1,10 +1,11 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ["./files/**/*.html", "./files/js/*.js"],
 	theme: {
 		extend: {
 			screens: {
 				widescreen: { raw: "(min-aspect-ratio: 3/2)" },
-				tallscreen: { raw: "(min-aspect-ratio: 13/20)" },
+				tallscreen: { raw: "(max-aspect-ratio: 13/20)" },
 			},
 			keyframes: {
 				"open-menu": {
