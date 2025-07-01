@@ -1,5 +1,5 @@
 module.exports = {
-	content: ["./index.html"],
+	content: ["./files/**/*.html", "./files/js/*.js"],
 	theme: {
 		extend: {
 			screens: {
