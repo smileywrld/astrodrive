@@ -8,5 +8,7 @@ const initApp = () => {
 	};
 
 	hamburgerBtn.addEventListener("click", toggleMenu);
-    mobileMenu.addEventListener
+	mobileMenu.addEventListener("click", toggleMenu);
 };
+
+document.addEventListener("DOMContentLoaded", initApp);
